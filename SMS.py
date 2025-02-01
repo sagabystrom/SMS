@@ -9,12 +9,12 @@ import os
 
 
 
-output_file_path = "C:/Users/alvaa/Desktop/ny_sms_artefacts.html"
-iphone_zip = "C:/Users/alvaa/OneDrive - Högskolan i Halmstad/Åk2/VT/aifv/assignmentmaterials/Cellebrite_CFT21_Beth_iPhoneX.zip"
+output_file_path = "" #HTML filen
+iphone_zip = "" #ZIP filen av mobilen
 apple_madrid_plist = "/private/var/mobile/Library/Preferences/com.apple.madrid.plist"
 MobileSMS_plist = "/private/var/mobile/Library/Preferences/com.apple.MobileSMS.plist"
-sms_db = "C:/Users/alvaa/Desktop/SMS/sms.db"
-attachments = "C:/Users/alvaa/Desktop/SMS/Attachments/"
+sms_db = "" #DB filen
+attachments = "" #Attachments filen
 
 
 #Vi behöver en funktion som konverterar nanosekunder till läsbart format för oss
